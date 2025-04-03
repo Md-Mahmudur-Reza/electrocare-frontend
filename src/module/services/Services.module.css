@@ -1,0 +1,12 @@
+.body {
+    padding-top: 100px;
+}
+
+.title {
+    font-family: var(--font-sans-serif);
+    color: var(--primary-color-1);
+    border-bottom: 10px solid var(--primary-color-2);
+    font-size: 60px;
+    margin: 0px auto 50px auto;
+    width: fit-content;
+}
