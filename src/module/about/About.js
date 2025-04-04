@@ -21,7 +21,7 @@ export default function About() {
 
             </div>
             <div className={styles.pictureSection}>
-                {/* <Image className={styles.picture} src={wiring} alt="wiring" /> */}
+
             </div>
 
         </div>

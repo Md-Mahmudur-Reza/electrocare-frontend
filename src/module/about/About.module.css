@@ -34,6 +34,9 @@
 .description {
     line-height: 1.6;
     text-align: justify;
+    color: var(--font-color-2);
+    font-weight: 500;
+
 }
 
 .pictureSection {

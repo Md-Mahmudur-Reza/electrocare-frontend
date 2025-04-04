@@ -3,6 +3,7 @@
     border-radius: 10px;
     display: flex;
     width: 80%;
+    max-width: 1200px;
     margin: 40px auto;
 }
 
@@ -32,7 +33,7 @@
 .description {
     color: var(--font-color-2);
     width: 80%;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
     margin-bottom: 30px;
 

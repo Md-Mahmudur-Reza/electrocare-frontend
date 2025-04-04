@@ -24,10 +24,10 @@ export default function Navbar() {
 
                 <ul className={styles.nav_links}>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/revert-corner">Service</a></li>
-                    <li><a href="/teachers/">About</a></li>
-                    <li><a href="/award-recognition/">Projects</a></li>
-                    <li><a href="/events-news/">Contact</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
                 </ul>
             </div>
         </nav>

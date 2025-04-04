@@ -1,0 +1,52 @@
+.body {
+    /* background-color: red; */
+    width: 100%;
+    /* min-height: 100vh; */
+}
+
+.innerBody {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+}
+
+.leftContent {
+    width: 60%;
+}
+
+.rightContent {
+    width: 40%;
+}
+
+.title {
+    font-family: var(--font-raleway);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--primary-color-1);
+    margin-bottom: 30px;
+}
+
+.description {
+    font-family: var(--font-raleway);
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--primary-color-1);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.inquirySection {
+    width: 500px;
+}
+
+.copyrights {
+    font-family: var(--font-raleway);
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--primary-color-1);
+    padding: 10px 0px;
+    text-align: center;
+}
