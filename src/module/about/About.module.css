@@ -1,0 +1,49 @@
+.body {
+    display: flex;
+    /* background-color: var(--background-color-1); */
+    background-image: url('../../../public/wiring.jpg');
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.content {
+    padding: 50px 0px;
+    width: 50%;
+    background-color: var(--background-color-1);
+    display: flex;
+    justify-content: end;
+    font-family: var(--font-raleway);
+}
+
+.innerContent {
+    width: 400px;
+    align-items: baseline;
+    margin-right: 50px;
+
+}
+
+.title {
+    color: var(--primary-color-1);
+    border-bottom: 10px solid var(--primary-color-2);
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0px auto 50px auto;
+    width: fit-content;
+}
+
+.description {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.pictureSection {
+    padding-left: 50px;
+    /* background-color: red; */
+
+}
+
+.picture {
+    height: fit-content;
+    object-fit: contain;
+    /* object-position: 50% 50%; */
+}

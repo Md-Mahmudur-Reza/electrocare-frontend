@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "@/module/navbar/Navbar";
 import HeroSection from "@/module/heroSection/HeroSection";
 import Services from "@/module/services/Services";
+import About from "@/module/about/About";
 
 import styles from "./page.module.css";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <Services />
+      <About />
     </div>
   );
 }

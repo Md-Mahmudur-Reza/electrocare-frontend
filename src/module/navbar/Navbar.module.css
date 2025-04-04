@@ -6,7 +6,7 @@
     position: fixed;
     transition: all 0.3s ease-in-out;
     z-index: 1000;
-    font-family: var(--font-sans-serif);
+    font-family: var(--font-raleway);
 }
 
 .stickynavbar {

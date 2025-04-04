@@ -11,12 +11,12 @@ export default function ServiceBox({ image, title, description }) {
             <img src={image || placeholder} alt={title || "Service"} className={styles.image} />
 
             <div className={styles.content}>
-                <h2 className={styles.title}>
+                <div className={styles.title}>
                     {title}
-                </h2>
-                <p className={styles.description}>
+                </div>
+                <div className={styles.description}>
                     {description}
-                </p>
+                </div>
                 <div className={styles.button}>
                     Book Now
                 </div>

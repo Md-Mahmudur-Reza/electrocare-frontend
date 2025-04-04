@@ -27,7 +27,7 @@ export default function Services() {
 
     return (
         <div className={styles.body}>
-            <h1 className={styles.title}>Services</h1>
+            <div className={styles.title}>SERVICE</div>
             <div className={styles.serviceSection}>
                 {serviceData.map((service, index) => (
                     <ServiceBox key={index} {...service} />
