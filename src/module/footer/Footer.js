@@ -15,9 +15,7 @@ export default function Footer() {
                         <div className={styles.description}>
                             For any inquiries, questions or commendations,
                             <br />
-                            please call: 123-456-7890 or
-                            <br />
-                            fill out the following form
+                            please call: <a className={styles.descriptionLink} href="tel:+1(249)989-4470">+1 (249) 989-4470</a>
                         </div>
                     </div>
                 </div>
@@ -30,17 +28,18 @@ export default function Footer() {
                         </div>
 
                         <div className={styles.description}>
-                            500 Terry Francine Street
+                            47-549 Yonge St,
                             <br />
-                            San Francisco, CA 94158
+                            Barrie, Ontario,
+                            <br />
+                            L4N 7P8
                         </div>
 
                         <div className={styles.description}>
-                            info@mysite.com
+                            Email: <a className={styles.descriptionLink} href="mailto:a01911932650@yahoo.com">a01911932650@yahoo.com</a>
                             <br />
-                            Tel: 123-456-7890
-                            <br />
-                            Fax: 123-456-7890
+                            Tel: <a className={styles.descriptionLink} href="tel:+1(249)989-4470">+1 (249) 989-4470</a>
+
                         </div>
                     </div>
                 </div>

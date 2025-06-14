@@ -8,19 +8,19 @@ export default function Services() {
 
     const serviceData = [
         {
-            image: "./dummy_image.jpg",
-            title: "Electrical House Wiring",
-            description: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
+            image: "./Services/service_1.jpeg",
+            title: "Home Applience",
+            description: "Fast, hassle-free installation and expert repairs for all major household electronics and appliances—keeping your kitchen, laundry, and entertainment gear running like new.",
         },
         {
-            image: "./dummy_image.jpg",
-            title: "Electronic Appliance",
-            description: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
+            image: "./Services/service_2.jpg",
+            title: "Electrical Wiring",
+            description: "Safe, code-compliant wiring for new builds, renovations, and upgrades. From panel upgrades to smart-home circuits, we ensure reliable power where you need it.",
         },
         {
-            image: "./dummy_image.jpg",
-            title: "Machinary",
-            description: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
+            image: "./Services/service_3.jpg",
+            title: "HVAC Installation and Mantaiance",
+            description: "Energy-efficient heating and cooling installation, maintenance, and troubleshooting. Enjoy year-round comfort with optimized airflow, lower utility bills, and 24/7 emergency support.",
         },
     ]
 

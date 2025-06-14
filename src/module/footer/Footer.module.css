@@ -38,6 +38,16 @@
     margin-bottom: 20px;
 }
 
+.descriptionLink {
+    font-family: var(--font-raleway);
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--primary-color-1);
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
 .inquirySection {
     width: 500px;
 }

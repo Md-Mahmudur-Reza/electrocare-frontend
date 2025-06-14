@@ -11,7 +11,7 @@
     width: 50%;
     background-color: var(--background-color-1);
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     font-family: var(--font-raleway);
 }
 

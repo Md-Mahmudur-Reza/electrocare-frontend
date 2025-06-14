@@ -1,8 +1,10 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 
+import logo from "../../../public/Logos/only_logo_1.png"
 import styles from "./Navbar.module.css"
 
 export default function Navbar() {
@@ -13,8 +15,8 @@ export default function Navbar() {
         <nav className={`${styles.navbar}`}>
             <div className={styles.navbar_container}>
                 <div className={styles.logo}>
-                    {/* <Image className={styles.logoImage} src={logo} alt="logo" /> */}
-                    Logo
+                    <Image className={styles.logoImage} src={logo} alt="logo" />
+                    {/* Logo */}
                 </div>
 
                 {/* Hamburger Menu for Mobile */}
@@ -26,7 +28,7 @@ export default function Navbar() {
                     <li><a href="/">Home</a></li>
                     <li><a href="/">Service</a></li>
                     <li><a href="/">About</a></li>
-                    <li><a href="/">Projects</a></li>
+                    {/* <li><a href="/">Projects</a></li> */}
                     <li><a href="/">Contact</a></li>
                 </ul>
             </div>
