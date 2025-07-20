@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-
+import Link from 'next/link'
 
 import logo from "../../../public/Logos/only_logo_1.png"
 import styles from "./Navbar.module.css"
@@ -25,11 +25,11 @@ export default function Navbar() {
                 </div>
 
                 <ul className={styles.nav_links}>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">Service</a></li>
-                    <li><a href="/">About</a></li>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/">Service</Link></li>
+                    <li><Link href="/">About</Link></li>
                     {/* <li><a href="/">Projects</a></li> */}
-                    <li><a href="/">Contact</a></li>
+                    <li><Link href="/">Contact</Link></li>
                 </ul>
             </div>
         </nav>

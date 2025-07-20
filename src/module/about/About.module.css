@@ -1,7 +1,7 @@
 .body {
     display: flex;
     /* background-color: var(--background-color-1); */
-    background-image: url('../../../public/wiring.jpg');
+    background-image: url('../../../public/wiring.jpeg');
     background-size: cover;
     margin-bottom: 100px;
 }

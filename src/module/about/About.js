@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
-import wiring from "../../../public/wiring.jpg"
+import wiring from "../../../public/wiring.jpeg"
 
 import styles from "./About.module.css"
 
