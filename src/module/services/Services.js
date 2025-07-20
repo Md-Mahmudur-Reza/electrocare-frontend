@@ -9,7 +9,7 @@ export default function Services() {
     const serviceData = [
         {
             image: "./Services/service_1.jpeg",
-            title: "Home Applience",
+            title: "Home Appliance",
             description: "Fast, hassle-free installation and expert repairs for all major household electronics and appliances—keeping your kitchen, laundry, and entertainment gear running like new.",
         },
         {

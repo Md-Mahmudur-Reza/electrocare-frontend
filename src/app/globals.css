@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 :root {
   --font-raleway: "Raleway", sans-serif;
+  --font-quicksand: "Quicksand", sans-serif;
+  --font-inter: "Inter", sans-serif;
   --primary-color-1: #1e2d3b;
   --primary-color-2: #edcd1f;
 
   --background-color-1: #eae9e6;
   --font-color-1: #eee;
-  --font-color-2: #5e6368;
+  --font-color-2: #4c4f53;
 
 }
 
