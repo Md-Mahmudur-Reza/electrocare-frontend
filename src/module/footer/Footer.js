@@ -15,7 +15,7 @@ export default function Footer() {
                         <div className={styles.description}>
                             For any inquiries, questions or commendations,
                             <br />
-                            please call: <a className={styles.descriptionLink} href="tel:+1(249)989-4470">+1 (249) 989-4470</a>
+                            please call: <a className={styles.descriptionLink} href="tel:+1(587)891-9262">+1 (587) 891-9262</a>, <a className={styles.descriptionLink} href="tel:+1(249)989-4470">+1 (249) 989-4470</a>
                         </div>
                     </div>
                 </div>
@@ -36,10 +36,11 @@ export default function Footer() {
                         </div>
 
                         <div className={styles.description}>
-                            Email: <a className={styles.descriptionLink} href="mailto:a01911932650@yahoo.com">a01911932650@yahoo.com</a>
+                            Email: <a className={styles.descriptionLink} href="mailto:thetechguys787@gmail.com">thetechguys787@gmail.com</a>
                             <br />
-                            Tel: <a className={styles.descriptionLink} href="tel:+1(249)989-4470">+1 (249) 989-4470</a>
-
+                            Tel: <a className={styles.descriptionLink} href="tel:+1(587)891-9262">+1 (587) 891-9262</a>, <a className={styles.descriptionLink} href="tel:+1(249)989-4470">+1 (249) 989-4470</a>
+                            <br />
+                            Facebook: <a className={styles.descriptionLink} href="https://www.facebook.com/the.tech.guys.ca/">The Tech Guys</a>
                         </div>
                     </div>
                 </div>

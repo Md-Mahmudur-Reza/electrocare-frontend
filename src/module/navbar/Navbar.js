@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from 'next/link'
 
-import logo from "../../../public/Logos/only_logo_1.png"
+import logo from "../../../public/Logos/the_tech_guys_logo.png"
 import styles from "./Navbar.module.css"
 
 export default function Navbar() {
