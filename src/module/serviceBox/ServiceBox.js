@@ -17,9 +17,12 @@ export default function ServiceBox({ image, title, description }) {
                 <div className={styles.description}>
                     {description}
                 </div>
-                <div className={styles.button}>
+                {/* <div className={styles.button}>
                     Book Now
-                </div>
+                </div> */}
+                <a href="tel:+15878919262" className={styles.button}>
+                    Call now
+                </a>
             </div>
         </div>
     )

@@ -13,12 +13,12 @@ export default function Services() {
             description: "Fast, hassle-free installation and expert repairs for all major household electronics and appliances—keeping your kitchen, laundry, and entertainment gear running like new.",
         },
         {
-            image: "./Services/service_2.jpg",
+            image: "./Services/electrical_2.jpeg",
             title: "Electrical Wiring",
             description: "Safe, code-compliant wiring for new builds, renovations, and upgrades. From panel upgrades to smart-home circuits, we ensure reliable power where you need it.",
         },
         {
-            image: "./Services/service_3.jpg",
+            image: "./Services/hvac_2.jpeg",
             title: "HVAC Installation and Mantaiance",
             description: "Energy-efficient heating and cooling installation, maintenance, and troubleshooting. Enjoy year-round comfort with optimized airflow, lower utility bills, and 24/7 emergency support.",
         },
