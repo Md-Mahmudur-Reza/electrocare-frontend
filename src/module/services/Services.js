@@ -26,7 +26,7 @@ export default function Services() {
 
 
     return (
-        <div className={styles.body}>
+        <div className={styles.body} id="services">
             <div className={styles.title}>SERVICE</div>
             <div className={styles.serviceSection}>
                 {serviceData.map((service, index) => (

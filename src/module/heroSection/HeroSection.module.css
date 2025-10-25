@@ -1,19 +1,57 @@
 .body {
     width: 100%;
     height: 100vh;
-    background-color: gray;
-    /* padding-top: 100px; */
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+/* Background image */
+.body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/bg1.jpg");
+    /* 👈 place your image here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(0.7);
+    /* darkens image slightly */
+    z-index: 1;
+}
+
+/* Tint overlay */
+.body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    /* 👈 adjust tint color & opacity here */
+    z-index: 2;
 }
 
 .title {
     width: 80%;
-    /* background-color: red; */
     margin: auto;
     text-align: center;
     font-family: var(--font-raleway);
     font-size: 60px;
     color: var(--font-color-1);
+    z-index: 3;
+    /* 👈 ensures text appears above background and tint */
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 30px;
+    }
 }

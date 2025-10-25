@@ -8,7 +8,7 @@ import styles from "./About.module.css"
 
 export default function About() {
     return (
-        <div className={styles.body}>
+        <div className={styles.body} id="about">
             <div className={styles.content}>
                 <div className={styles.innerContent}>
                     <div className={styles.title}>

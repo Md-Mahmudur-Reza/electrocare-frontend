@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 
 export default function Footer() {
     return (
-        <div className={styles.body}>
+        <div className={styles.body} id="contact">
             <div className={styles.innerBody}>
                 <div className={styles.leftContent}>
                     <div className={styles.inquirySection}>
