@@ -15,7 +15,11 @@ export default function Footer() {
                         <div className={styles.description}>
                             For any inquiries, questions or commendations,
                             <br />
-                            please call: <a className={styles.descriptionLink} href="tel:+1(587)891-9262">+1 (587) 891-9262</a>, <a className={styles.descriptionLink} href="tel:+1(249)989-4470">+1 (249) 989-4470</a>
+                            please call:
+                            <br />
+                            <a className={styles.descriptionLink} href="tel:+1(587)891-9262">+1 (587) 891-9262</a>
+                            <br />
+                            <a className={styles.descriptionLink} href="tel:+1(249)989-4470">+1 (249) 989-4470</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +52,7 @@ export default function Footer() {
 
             </div>
             <div className={styles.copyrights}>
-                © {(new Date().getFullYear())} by Sphere Constructions.
+                © {(new Date().getFullYear())} by The Tech Guys.
             </div>
             {/* <div className={styles.websiteDeveloper}>
                 
